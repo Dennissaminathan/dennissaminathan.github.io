@@ -3,70 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DreamGlam - Hair Growth Oil</title>
+    <title>DreamGlam - Hair Care Products</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #fff;
+            text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #000000;
-            color: #ffffff;
-            text-align: center;
-        }
-        header {
-            background-color: #d4af37;
-            color: black;
-            padding: 20px;
-            font-size: 28px;
-            font-weight: bold;
         }
         .container {
-            max-width: 600px;
-            margin: 20px auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
             padding: 20px;
-            background-color: #1a1a1a;
+        }
+        .product {
+            width: 45%;
+            padding: 20px;
+            background-color: #333;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+        h1 {
+            font-size: 42px;
+            color: #ffcc00;
+        }
+        h2 {
+            font-size: 32px;
+            color: #ffcc00;
         }
         img {
             width: 100%;
+            max-width: 250px;
             border-radius: 10px;
+            margin-top: 10px;
         }
-        .btn {
-            display: inline-block;
-            padding: 12px 24px;
-            margin-top: 20px;
-            background-color: #4caf50;
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-        .btn:hover {
-            background-color: #45a049;
-        }
-        footer {
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #d4af37;
-            color: black;
-            font-weight: bold;
+        p {
+            font-size: 20px;
+            text-align: justify;
         }
     </style>
 </head>
 <body>
-
-    <header>DreamGlam - Hair Growth Oil</header>
-
+    <h1>DreamGlam</h1>
     <div class="container">
-        <img src="product-image.jpg" alt="DreamGlam Hair Oil">
-        <h2>100% Natural Hair Growth Oil</h2>
-        <p>Promotes hair growth, controls hair fall, and nourishes the hair root. Experience the power of nature!</p>
-        <a href="#" class="btn">Order Now</a>
+        <div class="product">
+            <h2>Hair Growth Oil</h2>
+            <img src="hair-growth-oil.jpg" alt="Hair Growth Oil">
+            <p>DREAM GLAM Hair Growth Oil is a premium blend of nature's finest ingredients, meticulously handcrafted to nourish and revitalize your hair. Our unique formula includes a powerful combination of Amla, Bhringraj, Henna, Hibiscus, Avarampoo, Vettiver, Triphala, Fenugreek, Alkanet Root, Curry leaves, Neem, Garlic, Small onion, Aloe vera, Rosemary, and Ylang Ylang Essential oil, infused with first-grade cold-pressed Coconut oil, Sesame oil, and Castor oil. Dream Glam Hair Growth Oil provides deep nourishment to your scalp and hair, leaving it soft, shiny, and manageable.</p>
+        </div>
+        <div class="product">
+            <h2>Anti-Grey Oil</h2>
+            <img src="anti-grey-oil.jpg" alt="Anti-Grey Oil">
+            <p>Prevents Premature Greying, Strengthens Hair, and Restores Natural Hair Color. Formulated with a unique blend of natural herbs and essential oils to nourish your scalp and rejuvenate hair follicles.</p>
+        </div>
     </div>
-
-    <footer>&copy; 2025 DreamGlam. All rights reserved.</footer>
-
 </body>
 </html>
